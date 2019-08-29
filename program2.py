@@ -1,5 +1,7 @@
 
-/* program 2b */
+#program 2b 
+
+
 def str1(sentence):
   list1=(sentence.split(" "))
   for i in list1[::-1]:
@@ -8,3 +10,13 @@ def str1(sentence):
 sentence=str(input("enter the string"))
 
 str1(sentence)
+
+def str1(sentence):
+    list1=sentence.split(" ")
+    word=[word1[::-1] for word1 in list1]
+    sent=" ".join(word)
+    print(sent)
+        
+sentence=str(input("enter the string"))
+str1(sentence)
+
