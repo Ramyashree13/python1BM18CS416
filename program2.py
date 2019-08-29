@@ -7,11 +7,7 @@ def str1(sentence):
   for i in list1[::-1]:
       print(i)
 
-sentence=str(input("enter the string"))
-
-str1(sentence)
-
-def str1(sentence):
+def str2(sentence):
     list1=sentence.split(" ")
     word=[word1[::-1] for word1 in list1]
     sent=" ".join(word)
