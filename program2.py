@@ -1,11 +1,17 @@
 
-#program 2b 
+#program 2b
 
 
 def str1(sentence):
-  list1=(sentence.split(" "))
-  for i in list1[::-1]:
-      print(i)
+    list1=(sentence.split(" "))
+    new=""
+    for i in list1[::-1]:
+        new=new+" "+i
+    print(new)
+        
+sentence=input("enter the string")
+str1(sentence)
+
 
 def str2(sentence):
     list1=sentence.split(" ")
