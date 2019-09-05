@@ -1,3 +1,17 @@
+#program2a
+
+def find(lis,key):
+    for i in lis:
+        if(i==key):
+            print("key found")
+            return True
+    print("key not found")
+    return False
+
+lis=[1,2,3,4,5]
+key=int(input("enter the key value"))
+value=find(lis,key)
+print(value)
 
 #program 2b
 
