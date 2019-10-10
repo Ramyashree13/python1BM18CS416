@@ -5,9 +5,11 @@ class py_solution:
             if parenthese in pchar:
                     stack.append(parenthese)
             elif len(stack)==0 or pchar[stack.pop()] !=parenthese:
-                    return false
+                    return False
         return len(stack)==0
 
 
-
-print(py_solution().is_valid("([{}]"))
+str1=input("enter the string")
+x=py_solution()
+res=x.is_valid(str1)
+print(res)
